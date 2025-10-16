@@ -1,0 +1,58 @@
+# Hardhat
+node_modules
+cache
+artifacts
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+.openzeppelin/
+deployments/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.nyc_output
+
+# Build files
+dist
+build
+
+# Private keys (NEVER commit these)
+*.key
+*.pem
+private-keys.txt
+
+# Deployment artifacts
+deployment-*.json
+deployment-*.txt
+deployment-*.log
+
+# Misc
+*.orig
+.cache
+

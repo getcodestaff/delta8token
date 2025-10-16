@@ -1,0 +1,44 @@
+{
+  "name": "delta8-token",
+  "version": "1.0.0",
+  "description": "DELTA8 Token Contracts - Loyalty & Membership Protocol on Polygon",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:amoy": "npx hardhat run scripts/deployUpgradeable.js --network amoy",
+    "deploy:polygon": "npx hardhat run scripts/deployUpgradeable.js --network polygon",
+    "upgrade": "npx hardhat run scripts/upgradeVIPStaking.js --network polygon"
+  },
+  "keywords": [
+    "blockchain",
+    "polygon",
+    "erc20",
+    "defi",
+    "loyalty",
+    "staking",
+    "web3"
+  ],
+  "author": "DELTA8 Team",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "@openzeppelin/contracts-upgradeable": "^4.9.0",
+    "@openzeppelin/hardhat-upgrades": "^2.3.0",
+    "hardhat": "^2.19.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
